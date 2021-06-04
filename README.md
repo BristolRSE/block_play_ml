@@ -7,4 +7,15 @@ Instructions written for development version of block play application (for live
 ### Windows 10
 To run the block play application  on Windows 10, a suitable environment containing a number of software packages must be created.
 The packages can be installed directly using Python's [pip](https://pip.pypa.io/en/stable/) package manager using the provided [requirements.txt](./requirements.txt) file. 
-However, it is recommened to use [conda](https://docs.conda.io/en/latest/) with the provided [environment.yml](./environment.yml) file (which includes the packages in [requirements.txt](./requirements.txt) to ensure that the correct version of Python is used.
+However, it is recommened to use [conda](https://docs.conda.io/en/latest/) with the provided [environment.yml](./environment.yml) file (which includes the packages in [requirements.txt](./requirements.txt) to ensure that the correct version of Python is used. 
+
+The following instructions use the conda package manager and PowerShell to install the required packages.
+
+#### Install Build Tools for Visual Studio
+
+#### Install Miniconda3
+
+#### Install packages using conda
+
+
+#### Run application
