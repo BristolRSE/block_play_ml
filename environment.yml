@@ -1,0 +1,13 @@
+name: block_play_env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Python 3.7.x is required to use TensorFlow 1.15
+  # Install Python 3.7 and pip in a conda environment
+  - python=3.7
+  - pip
+
+  # Install dependencies using pip within conda environment
+  - pip:
+    - -r requirements.txt
