@@ -7,7 +7,7 @@ Instructions written for development version of block play application (for live
 ### Windows 10
 To run the block play application  on Windows 10, a suitable environment containing a number of software packages must be created.
 The packages can be installed directly using Python's [pip](https://pip.pypa.io/en/stable/) package manager using the provided [requirements.txt](./requirements.txt) file. 
-However, it is recommened to use [conda](https://docs.conda.io/en/latest/) with the provided [environment.yml](./environment.yml) file (which includes the packages in [requirements.txt](./requirements.txt) to ensure that the correct version of Python is used. 
+However, it is recommended to use [conda](https://docs.conda.io/en/latest/) with the provided [environment.yml](./environment.yml) file (which includes the packages in [requirements.txt](./requirements.txt) to ensure that the correct version of Python is used).
 
 The following instructions use the conda package manager and PowerShell to install the required packages.
 
@@ -43,7 +43,7 @@ The [conda](https://docs.conda.io/en/latest/) package manager enables us to easi
 If conda is already installed (e.g. through an [Anaconda](https://www.anaconda.com/) distribution or an existing [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installation), you may be able to skip this step and proceed straight to installing packages (below).
 
 * Download Miniconda (Miniconda3 Windows 64-bit) from the [Miniconda downloads page](https://docs.conda.io/en/latest/miniconda.html)
-  - Select the download the latest Python version, 3.9 (this does not affect the version we will use, since conda will automatically install the correct version)
+  - Select the download for the latest Python version, 3.9 (this does not affect the version we will use, since conda will automatically install the correct version)
 * Run the installer
   - Accept the license
   - Select "Just Me" option for installation
@@ -139,5 +139,5 @@ then start the block play application
 ```
 If the previous setup steps have been successful, the application should output text to the terminal for a short while and then open a GUI window displaying webcam input which can be used to control the application.
 
-> **NOTE** You may need to modify the value of `camera_idx` in the block play application's `main.py` file to avoid an error occuring immediately after the GUI appears.
+> **NOTE** You may need to modify the value of `camera_idx` in the block play application's `main.py` file to avoid an error occurring immediately after the GUI appears.
 > For example, while testing with a single webcam connected, it was necessary to change this from 1 to 0.
